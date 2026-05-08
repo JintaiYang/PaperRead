@@ -40,7 +40,7 @@ ECN 的关键洞察是：如果让每层的输入不再是固定的 $\mathbf{x}_
 
 ### 2.2 整体架构
 
-![[FCN.pdf|800]]
+![[FCN.png|800]]
 
 > 图1：DCN V3 的 Factorized Cross Network（FCN）结构。展示了 ECN 与 Self-Attention 的集成方式。
 
@@ -50,7 +50,7 @@ $$\mathbf{x}_{l+1} = \mathbf{x}_l \odot (\mathbf{W}_l \mathbf{x}_l + \mathbf{b}_
 
 与 DCN V2 的区别：DCN V2 用 $\mathbf{x}_0 \odot (\mathbf{W}_l \mathbf{x}_l)$，ECN 用 $\mathbf{x}_l \odot (\mathbf{W}_l \mathbf{x}_l)$。看似微小的改变，但意味着每层的交叉阶数倍增而非加一。
 
-![[CrossNetv2_low_rank.pdf|800]]
+![[CrossNetv2_low_rank.png|800]]
 
 > 图2：DCN V2 的 Cross Layer（左）vs DCN V3 的 Exponential Cross Layer（右）对比。
 
@@ -58,7 +58,7 @@ $$\mathbf{x}_{l+1} = \mathbf{x}_l \odot (\mathbf{W}_l \mathbf{x}_l + \mathbf{b}_
 
 在 Cross Layer 中引入 Multi-Head Self-Attention，让每个特征维度根据其与其他维度的相关性动态调整交叉权重。
 
-![[benchmark.pdf|800]]
+![[benchmark.png|800]]
 
 > 图3：各方法在 benchmark 数据集上的对比。
 
@@ -104,11 +104,11 @@ $$\mathbf{x}_{l+1} = \mathbf{x}_l \odot (\mathbf{W}_l \mathbf{x}_l + \mathbf{b}_
 
 ### 3.3 实验结果与分析
 
-![[ECN_vs_LCN_Criteo_Layer.pdf|600]]
+![[ECN_vs_LCN_Criteo_Layer.png|600]]
 
 > 图4：ECN vs DCN V2 在 Criteo 上随层数变化的 AUC 对比。ECN 用更少层数达到更高性能。
 
-![[ECN_vs_LCN_KKBox_Layer.pdf|600]]
+![[ECN_vs_LCN_KKBox_Layer.png|600]]
 
 > 图5：ECN vs DCN V2 在 KKBox 上随层数变化的 AUC 对比。
 

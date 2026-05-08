@@ -193,15 +193,37 @@ cat /tmp/paper_analysis/5-eval.tex > /tmp/paper_analysis/eval.txt
    - 多行或推导型公式统一使用块级 `$$...$$`
    - 保持符号与原论文一致，避免自行改写符号语义
 
-## 步骤3：复制图片并生成索引
+## 步骤3：转换图片为高清 PNG 并复制到目标目录
 
 ```bash
-# 复制figures目录到目标位置
-cp /tmp/paper_analysis/*.{pdf,png,jpg,jpeg} "PAPERS_DIR/[DOMAIN]/[PAPER_TITLE]/images/" 2>/dev/null
+# 1. 复制原始文件到目标目录
+cp /tmp/paper_analysis/Figures/*.{pdf,png,jpg,jpeg} "PAPERS_DIR/[DOMAIN]/[PAPER_TITLE]/images/" 2>/dev/null
 
-# 列出复制的内容
-ls "PAPERS_DIR/[DOMAIN]/[PAPER_TITLE]/images/"
+# 2. 使用 PyMuPDF 将所有 PDF 图片转换为高清 PNG（4x zoom，宽度 ≥ 800px）
+python3 -c "
+import fitz, os, glob
+img_dir = 'PAPERS_DIR/[DOMAIN]/[PAPER_TITLE]/images'
+for pdf_path in glob.glob(os.path.join(img_dir, '*.pdf')):
+    png_path = pdf_path.replace('.pdf', '.png')
+    doc = fitz.open(pdf_path)
+    page = doc[0]
+    zoom = 4.0
+    while True:
+        mat = fitz.Matrix(zoom, zoom)
+        pix = page.get_pixmap(matrix=mat, alpha=False)
+        if pix.width >= 800 or zoom >= 8.0:
+            break
+        zoom += 1.0
+    pix.save(png_path)
+    doc.close()
+    print(f'Converted: {os.path.basename(pdf_path)} -> {os.path.basename(png_path)} ({pix.width}x{pix.height})')
+"
+
+# 3. 验证所有 PNG 宽度 >= 800px
+ls "PAPERS_DIR/[DOMAIN]/[PAPER_TITLE]/images/"*.png
 ```
+
+**⚠️ 关键**：笔记中只引用 `.png` 文件，不引用 `.pdf`。
 
 ## 步骤4：生成综合论文笔记
 
@@ -316,16 +338,16 @@ date: "YYYY-MM-DD"
 
 
 **架构图选择原则**：
-1. **优先使用论文中的现成图** - 如果论文PDF中有架构图/流程图/方法图，直接插入
+1. **优先使用论文中的现成图** - 如果论文PDF中有架构图/流程图/方法图，转换为高清PNG后插入
 2. **仅在无图时创建Canvas** - 当论文没有合适的架构图时，才用JSON Canvas自行绘制
 
 **方式1：插入论文中的图（优先）**
 ```
-![[pageX_figY.pdf|800]]
+![[arch.png|800]]
 
 > 图1：[架构描述，包括图中各个部分的含义和它们之间的关系]
 ```
-**注意**：图片文件名必须与实际文件名匹配（从arXiv提取的图片通常是`.pdf`格式）
+**⚠️ 重要**：必须引用 `.png` 格式图片，禁止直接引用 `.pdf`。所有从arXiv提取的PDF图片必须先用 PyMuPDF 以 4x zoom 转换为高清 PNG（宽度 ≥ 800px），再在笔记中引用。详见 `extract-paper-images` skill 中的转换规范。
 
 **方式2：创建Canvas架构图（论文无图时使用）**
 调用 `json-canvas` skill 创建 `.canvas` 文件，然后嵌入：
@@ -384,11 +406,11 @@ Canvas 创建步骤：
 
 **方式1：插入论文中的图（优先）**
 ```
-![[pageX_figY.pdf|800]]
+![[method_detail.png|800]]
 
-> 图1：[架构描述，包括图中各个部分的含义和它们之间的关系]
+> 图X：[架构描述，包括图中各个部分的含义和它们之间的关系]
 ```
-**注意**：图片文件名必须与实际文件名匹配（从arXiv提取的图片通常是`.pdf`格式）
+**⚠️ 重要**：必须引用 `.png` 格式，禁止引用 `.pdf`。
 
 **方式2：创建Canvas架构图（论文无图时使用）**
 ```
@@ -448,10 +470,10 @@ Canvas 创建步骤：
 ### 实验结果图
 [插入论文中的实验结果图]
 
-![[experiment_results.pdf|800]]
+![[experiment_results.png|800]]
 
 > 图2：[图描述]
-**注意**：图片文件名必须与实际文件名匹配（从arXiv提取的图片通常是`.pdf`格式）
+**⚠️ 重要**：必须引用 `.png` 格式，禁止引用 `.pdf`。
 
 ## 四、未来工作建议
 

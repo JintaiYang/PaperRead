@@ -45,11 +45,11 @@ $$\mathbf{x}_{l+1} = \mathbf{x}_0 \odot (\mathbf{W}_l \mathbf{x}_l + \mathbf{b}_
 
 ### 2.2 整体架构
 
-![[dcn-stack.pdf|800]]
+![[dcn-stack.png|800]]
 
 > 图1：DCN V2 的 Stacked 结构。Cross Network 堆叠在 Deep Network 之上，两者串行处理。
 
-![[dcn-parallel.pdf|800]]
+![[dcn-parallel.png|800]]
 
 > 图2：DCN V2 的 Parallel 结构。Cross Network 和 Deep Network 并行处理，输出拼接后预测。
 
@@ -71,7 +71,7 @@ $$\mathbf{x}_{l+1} = \sum_{i=1}^{K} G_i(\mathbf{x}_l) \cdot E_i(\mathbf{x}_l)$$
 
 其中 $E_i$ 是第 $i$ 个低秩 Cross 专家，$G_i$ 是 gating 函数
 
-![[mixture-dcn.pdf|800]]
+![[mixture-dcn.png|800]]
 
 > 图3：Mixture-of-Experts Cross Network。多个低秩 Cross 专家通过门控融合，在参数可控的前提下提升表达能力。
 

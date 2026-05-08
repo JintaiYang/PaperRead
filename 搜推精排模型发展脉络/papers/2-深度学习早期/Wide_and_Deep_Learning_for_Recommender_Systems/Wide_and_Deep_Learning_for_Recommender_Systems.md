@@ -44,7 +44,7 @@ Wide 部分是一个带交叉特征的线性模型，参数少但能精确记住
 
 ### 2.2 整体架构
 
-![[PrexWideDeepModelStructure.pdf|800]]
+![[PrexWideDeepModelStructure.png|800]]
 
 > 图1：Wide & Deep 模型结构。左侧为 Wide 部分（线性模型 + 交叉特征），右侧为 Deep 部分（Embedding + 多层 DNN），两者输出在最后一层合并，经 sigmoid 输出预测概率。
 
@@ -86,7 +86,7 @@ $$\phi_k(\mathbf{x}) = \prod_{i=1}^{d} x_i^{c_{ki}}, \quad c_{ki} \in \{0, 1\}$$
 - 论文区分了 **joint training** 和 **ensemble**：ensemble 中各模型独立训练，最后只合并预测；joint training 中两个部分共享梯度信号，Wide 知道 Deep 已经做了泛化，所以只需少量交叉特征即可，反之亦然
 - 具体做法：将 Wide 和 Deep 的输出 logit 相加，通过 sigmoid 后计算 logloss，反向传播同时更新两部分参数
 
-![[RecommenderSystemOverview.pdf|800]]
+![[RecommenderSystemOverview.png|800]]
 
 > 图2：Google Play 推荐系统整体架构。检索系统（Retrieval）从百万级候选中召回约百级候选，然后 Wide & Deep 模型对每个候选打分排序。
 

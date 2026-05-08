@@ -61,7 +61,7 @@ $$\mathbf{X}_{n} = \text{LN}(\text{PFFN}(\mathbf{S}_{n-1}) + \mathbf{S}_{n-1})$$
 
 其中 $\mathbf{X}_{n} \in \mathbb{R}^{T \times D}$ 是第 $n$ 层 RankMixer Block 的输出，$D$ 是模型隐藏维度。
 
-![[RankMixer_arch_v3.pdf|800]]
+![[RankMixer_arch_v3.png|800]]
 
 > 图1：RankMixer Block 架构。每个 Block 由 Multi-head Token Mixing 和 SMoE-based Per-token FFN 两个模块组成。Token Mixing 将每个 token 的 embedding 分为 $H$ 个 head，然后跨 token 重新组合这些 head，实现不同特征之间的信息交互。
 
@@ -209,7 +209,7 @@ DTSI + ReLU Routing 组合在激活比降至 1/8 时仍能保持接近 Dense 模
 
 ### 专家激活分布
 
-![[expert_balance.pdf|800]]
+![[expert_balance.png|800]]
 
 > 图4：不同 token 的专家激活比例分布。DTSI + ReLU Routing 使得激活比例根据 token 信息含量动态变化，高信息 token 激活更多专家，适配推荐数据的异构分布。
 
