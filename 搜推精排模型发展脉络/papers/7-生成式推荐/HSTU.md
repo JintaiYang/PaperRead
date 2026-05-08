@@ -1,0 +1,37 @@
+---
+title: "Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations"
+short_name: "HSTU"
+year: 2024
+venue: "ICML 2024"
+authors: "Jiaqi Zhai, Lucy Liao, Xing Liu, et al."
+affiliation: "Meta"
+direction: "生成式推荐"
+tags:
+  - 精排论文
+  - HSTU
+  - 生成式推荐
+  - Transformer
+  - Scaling-Law
+contribution: "将推荐重新定义为序列转导任务，万亿参数生成式推荐，验证 Scaling Law"
+industry: "Meta（Instagram/Facebook）"
+link: "https://arxiv.org/abs/2402.17152"
+note_link: "[[HSTU_Actions_Speak_Louder_than_Words]]"
+---
+
+# HSTU
+
+**Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations**
+
+Jiaqi Zhai, Lucy Liao, Xing Liu, et al. (Meta, ICML 2024)
+
+## 核心贡献
+
+将推荐重新定义为序列转导任务，万亿参数生成式推荐，验证 Scaling Law
+
+## 工业落地
+
+Meta（Instagram/Facebook）
+
+## 链接
+
+- [论文链接](https://arxiv.org/abs/2402.17152)

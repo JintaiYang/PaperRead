@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "0ce1fa0c8135e1dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "085ebb31e9e19eb9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6fbbadbe9f2372fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20_Research/Papers/推荐系统/UniCTR_Multi_Domain_CTR_Prediction_via_LLM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UniCTR_Multi_Domain_CTR_Prediction_via_LLM"
+            }
+          },
+          {
+            "id": "f6a0b2de204466f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/2-深度学习早期/DeepFM_A_Factorization_Machine_based_Neural_Network/DeepFM_A_Factorization_Machine_based_Neural_Network.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DeepFM_A_Factorization_Machine_based_Neural_Network"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6a8479ec34a0f434",
+    "type": "split",
+    "children": [
+      {
+        "id": "1532ff5059d4c1f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ba30ca5a97b53d1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "7111888373fda869",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "9e801e4c33fc9a90",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 312.5
+  },
+  "right": {
+    "id": "3c2fde4a47ed5346",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6fdaea3e0540fd7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e195dcd52b987f4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "20_Research/Papers/推荐系统/GDCN_Gated_Deep_Cross_Network.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "GDCN_Gated_Deep_Cross_Network 的反向链接列表"
+            }
+          },
+          {
+            "id": "b32ec56a08445f99",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "20_Research/Papers/推荐系统/GDCN_Gated_Deep_Cross_Network.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "GDCN_Gated_Deep_Cross_Network 的出链列表"
+            }
+          },
+          {
+            "id": "0795d002fa217151",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "af898ddc8427d16d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "25d39ab78a621dc8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "20_Research/Papers/推荐系统/GDCN_Gated_Deep_Cross_Network.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "GDCN_Gated_Deep_Cross_Network 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "6fbbadbe9f2372fc",
+  "lastOpenFiles": [
+    "搜推精排模型发展脉络/papers/2-深度学习早期/DeepFM_A_Factorization_Machine_based_Neural_Network/DeepFM_A_Factorization_Machine_based_Neural_Network.md",
+    "20_Research/Papers/推荐系统/UniCTR_Multi_Domain_CTR_Prediction_via_LLM.md",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni_CTR_A_Unified_Framework_for_CTR_Prediction/Uni_CTR_A_Unified_Framework_for_CTR_Prediction.md",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/ELEC_LLM_Enhanced_Feature_Engineering/ELEC_LLM_Enhanced_Feature_Engineering.md",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni_CTR.md",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/ELEC.md",
+    "搜推精排模型发展脉络/papers/4-序列建模/DIEN_Deep_Interest_Evolution_Network/DIEN_Deep_Interest_Evolution_Network.md",
+    "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/Wukong_fig7_page12.png",
+    "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/Wukong_fig6_page12.png",
+    "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/Wukong_fig5_page8.png",
+    "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/Wukong_fig4_page8.png",
+    "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/Wukong_fig3_page7.png",
+    "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/Wukong_fig2_page3.png",
+    "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/Wukong_fig1_page1.png",
+    "搜推精排模型发展脉络/papers/7-生成式推荐/MTGR_Multi_Task_Generative_Recommender/images/MTGR_fig6_page7.png",
+    "搜推精排模型发展脉络/papers/7-生成式推荐/MTGR_Multi_Task_Generative_Recommender/images/MTGR_fig5_page7.png",
+    "搜推精排模型发展脉络/papers/7-生成式推荐/MTGR_Multi_Task_Generative_Recommender/images/MTGR_fig4_page5.png",
+    "搜推精排模型发展脉络/papers/4-序列建模/DIN.md",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni_CTR_A_Unified_Framework_for_CTR_Prediction/images/BPD_100.pdf",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni_CTR_A_Unified_Framework_for_CTR_Prediction/images/BPD_50.pdf",
+    "搜推召回模型发展脉络/召回核心论文库.base",
+    "搜推召回模型发展脉络/搜推召回模型发展脉络.md",
+    "未命名.base",
+    "搜推召回模型发展脉络/papers/7-生成式召回/OneRec.md",
+    "搜推召回模型发展脉络/papers/7-生成式召回/OneRec_Unifying_Retrieve_and_Rank/OneRec_Unifying_Retrieve_and_Rank.md",
+    "搜推召回模型发展脉络/papers/2-Embedding化召回/Node2Vec_Scalable_Feature_Learning_for_Networks/Node2Vec_Scalable_Feature_Learning_for_Networks.md",
+    "搜推召回模型发展脉络/papers/2-Embedding化召回/YouTube_DNN_Deep_Neural_Networks_for_Recommendations/YouTube_DNN_Deep_Neural_Networks_for_Recommendations.md",
+    "搜推召回模型发展脉络/papers/2-Embedding化召回/DSSM_Learning_Deep_Structured_Semantic_Models/DSSM_Learning_Deep_Structured_Semantic_Models.md",
+    "搜推召回模型发展脉络/papers/1-传统方法/Swing_Large_Scale_Product_Graph_Construction/Swing_Large_Scale_Product_Graph_Construction.md",
+    "搜推精排模型发展脉络/papers/3-特征交叉/GDCN_Gated_Deep_Cross_Network/GDCN_Gated_Deep_Cross_Network.md",
+    "搜推召回模型发展脉络/papers/7-生成式召回/MTGR_Generative_Recommendation_Bidirectional/MTGR_Generative_Recommendation_Bidirectional.md",
+    "搜推召回模型发展脉络/papers/7-生成式召回/MTGR_Generative_Recommendation_Bidirectional",
+    "搜推召回模型发展脉络/papers/7-生成式召回/MTGR.md",
+    "搜推召回模型发展脉络/papers/7-生成式召回/OneRec_Unifying_Retrieve_and_Rank",
+    "搜推召回模型发展脉络/papers/7-生成式召回/HSTU_Actions_Speak_Louder_than_Words/HSTU_Actions_Speak_Louder_than_Words.md",
+    "搜推召回模型发展脉络/papers/7-生成式召回/HSTU_Actions_Speak_Louder_than_Words",
+    "搜推召回模型发展脉络/papers/7-生成式召回/HSTU.md",
+    "搜推召回模型发展脉络/papers/7-生成式召回/TIGER_Recommender_Systems_with_Generative_Retrieval/TIGER_Recommender_Systems_with_Generative_Retrieval.md",
+    "搜推召回模型发展脉络/papers/7-生成式召回/TIGER_Recommender_Systems_with_Generative_Retrieval",
+    "搜推召回模型发展脉络/papers/7-生成式召回/TIGER.md",
+    "搜推召回模型发展脉络/papers/6-多兴趣召回/SINE_Sparse_Interest_Network/SINE_Sparse_Interest_Network.md",
+    "搜推召回模型发展脉络/papers/6-多兴趣召回/SINE_Sparse_Interest_Network",
+    "搜推召回模型发展脉络/papers/6-多兴趣召回/SINE.md",
+    "搜推召回模型发展脉络/papers/6-多兴趣召回/ComiRec_Controllable_Multi_Interest_Framework/ComiRec_Controllable_Multi_Interest_Framework.md",
+    "搜推召回模型发展脉络/papers/6-多兴趣召回/ComiRec_Controllable_Multi_Interest_Framework",
+    "搜推召回模型发展脉络/papers/6-多兴趣召回/ComiRec.md",
+    "未命名.canvas"
+  ]
+}

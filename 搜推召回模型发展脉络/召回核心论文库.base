@@ -1,0 +1,111 @@
+filters:
+  and:
+    - file.hasTag("召回论文")
+    - file.ext == "md"
+formulas:
+  paper_label: if(short_name, short_name + " (" + year.toString() + ")", file.name)
+properties:
+  short_name:
+    displayName: 模型
+  year:
+    displayName: 年份
+  venue:
+    displayName: 发表会议
+  direction:
+    displayName: 研究方向
+  affiliation:
+    displayName: 机构
+  contribution:
+    displayName: 核心贡献
+  industry:
+    displayName: 工业落地
+  note_link:
+    displayName: 论文笔记
+views:
+  - type: table
+    name: 全部论文（按研究方向分组）
+    groupBy:
+      property: direction
+      direction: ASC
+    order:
+      - year
+      - short_name
+      - venue
+      - direction
+      - affiliation
+      - contribution
+      - industry
+      - note_link
+  - type: table
+    name: 按年份排序
+    order:
+      - year
+      - short_name
+      - direction
+      - venue
+      - affiliation
+      - industry
+      - note_link
+    summaries:
+      year: Unique
+  - type: table
+    name: Embedding化召回
+    filters:
+      and:
+        - direction == "Embedding化召回"
+    order:
+      - year
+      - short_name
+      - venue
+      - contribution
+      - industry
+      - note_link
+  - type: table
+    name: 双塔精细化
+    filters:
+      and:
+        - direction == "双塔精细化"
+    order:
+      - year
+      - short_name
+      - venue
+      - contribution
+      - industry
+      - note_link
+  - type: table
+    name: 图召回
+    filters:
+      and:
+        - direction == "图召回"
+    order:
+      - year
+      - short_name
+      - venue
+      - contribution
+      - industry
+      - note_link
+  - type: table
+    name: 多兴趣召回
+    filters:
+      and:
+        - direction == "多兴趣召回"
+    order:
+      - year
+      - short_name
+      - venue
+      - contribution
+      - industry
+      - note_link
+  - type: table
+    name: 生成式召回与统一架构
+    filters:
+      or:
+        - direction == "生成式召回"
+        - direction == "树索引召回"
+    order:
+      - year
+      - short_name
+      - venue
+      - contribution
+      - industry
+      - note_link
