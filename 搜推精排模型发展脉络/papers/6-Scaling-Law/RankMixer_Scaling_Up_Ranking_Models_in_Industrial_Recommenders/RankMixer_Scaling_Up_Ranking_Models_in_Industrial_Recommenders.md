@@ -3,7 +3,7 @@ paper_id: "[arXiv:2507.15551](https://arxiv.org/abs/2507.15551)"
 title: "RankMixer: Scaling Up Ranking Models in Industrial Recommenders"
 authors: "Jie Zhu, Zhifang Fan, Xiaoxie Zhu, Yuchen Jiang, et al."
 institution: "ByteDance"
-pushlication: "arXiv Preprint 2025-07-21"
+pushlication: "arXiv Preprint 2025-07-21 (v3: 2025-07-26)"
 tags:
   - Scaling-Law
   - 推荐系统精排
@@ -339,6 +339,7 @@ $$\text{Latency} = \frac{\#\text{Param} \times \text{FLOPs/Param ratio}}{\text{M
 - 跨模态 RankMixer - 将视觉/文本多模态特征接入统一 Token 空间
 
 ## 外部资源
+- [arXiv HTML 版本（实验性）](https://arxiv.org/html/2507.15551v3)
 - [知乎解读：一文搞懂 RankMixer](https://zhuanlan.zhihu.com/p/1975860443877748808)
 - [知乎解读：字节 Scaling Law 方案 RankMixer](https://zhuanlan.zhihu.com/p/1934435946553664683)
 - [知乎解读：推荐精排模型高 ROI 的 Scaling Law 结构](https://zhuanlan.zhihu.com/p/1986029801761436835)
