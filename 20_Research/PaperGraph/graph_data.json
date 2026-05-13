@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "2312.10743",
+      "title": "A Unified Framework for Multi-Domain CTR Prediction via Large Language Models",
+      "year": 2026,
+      "domain": "Multi-Domain-CTR",
+      "quality_score": 7.5,
+      "tags": [
+        "论文笔记",
+        "Multi-Domain-CTR"
+      ],
+      "analyzed": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "2312.10743",
+      "target": "STAR",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "2312.10743",
+      "target": "PLE",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "2312.10743",
+      "target": "MMOE",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "2312.10743",
+      "target": "LoRA",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "2312.10743",
+      "target": "Sheared-LLaMA",
+      "type": "related",
+      "weight": 0.7
+    }
+  ],
+  "last_updated": "2026-05-13"
+}

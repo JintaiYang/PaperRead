@@ -4,79 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "9bbb9ea5683fbc0e",
+        "id": "39677bca4d323095",
         "type": "tabs",
         "children": [
           {
-            "id": "496599ecd8ad34ae",
+            "id": "b51df55495d5ffdd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation.md",
+                "file": "搜推精排模型发展脉络/方法论/paper-analyze-SKILL v1.0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation"
+              "title": "paper-analyze-SKILL v1.0"
             }
           },
           {
-            "id": "701c2cc03ca11b50",
+            "id": "f2ae930796b15462",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "搜推精排模型发展脉络/papers/6-Scaling-Law/TokenMixer_Large_Scaling_Up_Large_Ranking_Models_in_Industrial_Recommenders/TokenMixer_Large_Scaling_Up_Large_Ranking_Models_in_Industrial_Recommenders.md",
+                "file": "搜推精排模型发展脉络/方法论/paper-analyze-SKILL v2.0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TokenMixer_Large_Scaling_Up_Large_Ranking_Models_in_Industrial_Recommenders"
+              "title": "paper-analyze-SKILL v2.0"
             }
           },
           {
-            "id": "0f3b10b9a7c33344",
+            "id": "be1aa22e1eea308b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "搜推精排模型发展脉络/方法论/paper-analyze-SKILL.md",
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/Uni-CTR A Unified Framework for Multi-Domain CTR Prediction via Large Language Models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "paper-analyze-SKILL"
-            }
-          },
-          {
-            "id": "be2185191bed97b6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "搜推精排模型发展脉络/papers/6-Scaling-Law/OneTrans_Unified_Feature_Interaction_and_Sequence_Modeling/images/compare_all.png"
-              },
-              "icon": "lucide-image",
-              "title": "compare_all"
-            }
-          },
-          {
-            "id": "6c46ff06a4cc6161",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "搜推精排模型发展脉络/papers/6-Scaling-Law/OneTrans_Unified_Feature_Interaction_and_Sequence_Modeling/OneTrans_Unified_Feature_Interaction_and_Sequence_Modeling.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OneTrans_Unified_Feature_Interaction_and_Sequence_Modeling"
+              "title": "Uni-CTR A Unified Framework for Multi-Domain CTR Prediction via Large Language Models"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 426.5
   },
   "right": {
     "id": "3c2fde4a47ed5346",
@@ -249,54 +223,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c46ff06a4cc6161",
+  "active": "2ba30ca5a97b53d1",
   "lastOpenFiles": [
-    "搜推精排模型发展脉络/papers/6-Scaling-Law/OneTrans_Unified_Feature_Interaction_and_Sequence_Modeling/images/compare_all.png",
-    "搜推精排模型发展脉络/方法论/paper-analyze-SKILL.md",
+    "未命名.canvas",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/Uni-CTR A Unified Framework for Multi-Domain CTR Prediction via Large Language Models.md",
+    "搜推精排模型发展脉络/方法论/paper-analyze-SKILL v2.0.md",
+    "搜推精排模型发展脉络/方法论/paper-analyze.zip",
+    "搜推精排模型发展脉络/方法论/paper-analyze-SKILL v1.0.md",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/ELEC.md",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni_CTR.md",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni_CTR_A_Unified_Framework_for_CTR_Prediction/Uni_CTR_A_Unified_Framework_for_CTR_Prediction.md",
+    "20_Research/PaperGraph/graph_data.json",
+    "20_Research/PaperGraph",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Prompt.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/dsn-trained.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Distribution.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Comparison.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Ablation-Block.png",
+    "20_Research/Papers/推荐系统/UniCTR_Multi_Domain_CTR_Prediction_via_LLM.md",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/dsn-untrained.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Uni-CTR3.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/scale.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/zeroshot.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Uni-CTR.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR",
+    "搜推精排模型发展脉络/papers/6-Scaling-Law/OneTrans_Unified_Feature_Interaction_and_Sequence_Modeling/OneTrans_Unified_Feature_Interaction_and_Sequence_Modeling.md",
+    "搜推精排模型发展脉络/papers/6-Scaling-Law/RankMixer_Scaling_Up_Ranking_Models_in_Industrial_Recommenders/RankMixer_Scaling_Up_Ranking_Models_in_Industrial_Recommenders.md",
+    "搜推精排模型发展脉络/papers/6-Scaling-Law/Scaling_Law_of_Large_Sequential_Recommendation_Models/Scaling_Law_of_Large_Sequential_Recommendation_Models.md",
+    "搜推精排模型发展脉络/papers/6-Scaling-Law/FAT_From_Scaling_to_Structured_Expressivity/FAT_From_Scaling_to_Structured_Expressivity.md",
     "搜推精排模型发展脉络/papers/6-Scaling-Law/TokenMixer_Large_Scaling_Up_Large_Ranking_Models_in_Industrial_Recommenders/TokenMixer_Large_Scaling_Up_Large_Ranking_Models_in_Industrial_Recommenders.md",
     "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation.md",
-    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni_CTR_A_Unified_Framework_for_CTR_Prediction/images/BPD_100.png",
-    "搜推精排模型发展脉络/papers/7-生成式推荐/HSTU_Actions_Speak_Louder_than_Words/images/seqrec_vs_grs_grs_r3.png",
-    "搜推精排模型发展脉络/papers/7-生成式推荐/HSTU_Actions_Speak_Louder_than_Words/images/ranking_baseline.png",
-    "搜推精排模型发展脉络/papers/7-生成式推荐/HSTU_Actions_Speak_Louder_than_Words/images/m-falcon_training.png",
-    "搜推精排模型发展脉络/papers/7-生成式推荐/HSTU_Actions_Speak_Louder_than_Words/images/m-falcon_inference.png",
-    "搜推精排模型发展脉络/papers/7-生成式推荐/HSTU_Actions_Speak_Louder_than_Words/images/intro_pfsdays_dl_models_v3.png",
-    "搜推精排模型发展脉络/papers/7-生成式推荐/HSTU_Actions_Speak_Louder_than_Words/images/exp_scaling_retrieval_pflops_days_v5_500.png",
-    "搜推精排模型发展脉络/papers/7-生成式推荐/HSTU_Actions_Speak_Louder_than_Words/images/exp_scaling_retrieval_pflops_days_v5_100.png",
-    "搜推精排模型发展脉络/papers/7-生成式推荐/HSTU_Actions_Speak_Louder_than_Words/images/exp_scaling_ranking_pflops_days_v5.png",
-    "搜推精排模型发展脉络/papers/7-生成式推荐/HSTU_Actions_Speak_Louder_than_Words/images/exp_efficiency_throughput_scaling_v3.png",
     "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/ablation-component.pdf",
     "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/arch.pdf",
-    "搜推精排模型发展脉络/papers/6-Scaling-Law/RankMixer_Scaling_Up_Ranking_Models_in_Industrial_Recommenders/RankMixer_Scaling_Up_Ranking_Models_in_Industrial_Recommenders.md",
     "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/scaling.pdf",
     "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/scaling-wukong.pdf",
     "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/scaling-qps.pdf",
-    "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/scaling-params.pdf",
-    "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/scaling-log.pdf",
-    "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/scaling-fit.pdf",
-    "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/ne-data.pdf",
-    "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/dot-compress.pdf",
     "搜推精排模型发展脉络/papers/7-生成式推荐/MTGR_Multi_Task_Generative_Recommender/MTGR_Multi_Task_Generative_Recommender.md",
     "搜推精排模型发展脉络/搜推精排模型发展脉络.md",
-    "搜推精排模型发展脉络/papers/6-Scaling-Law/FAT_From_Scaling_to_Structured_Expressivity/FAT_From_Scaling_to_Structured_Expressivity.md",
-    "搜推精排模型发展脉络/papers/6-Scaling-Law/OneTrans_Unified_Feature_Interaction_and_Sequence_Modeling/OneTrans_Unified_Feature_Interaction_and_Sequence_Modeling.md",
     "搜推精排模型发展脉络/papers/6-Scaling-Law/OneTrans.md",
     "搜推精排模型发展脉络/papers/7-生成式推荐/MTGR.md",
     "搜推精排模型发展脉络/papers/7-生成式推荐/HSTU.md",
-    "搜推精排模型发展脉络/papers/6-Scaling-Law/Scaling_Law_of_Large_Sequential_Recommendation_Models/Scaling_Law_of_Large_Sequential_Recommendation_Models.md",
     "FAT_Scaling_Laws_of_Feature_Interactions_in_Recommendation.md",
     "搜推精排模型发展脉络/papers/7-生成式推荐/HSTU_Actions_Speak_Louder_than_Words/HSTU_Actions_Speak_Louder_than_Words.md",
     "搜推精排模型发展脉络/papers/2-深度学习早期/DeepFM_A_Factorization_Machine_based_Neural_Network/DeepFM_A_Factorization_Machine_based_Neural_Network.md",
     "搜推精排模型发展脉络/paper-analyze-SKILL.md",
-    "未命名.canvas",
-    "20_Research/Papers/推荐系统/UniCTR_Multi_Domain_CTR_Prediction_via_LLM.md",
-    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni_CTR_A_Unified_Framework_for_CTR_Prediction/Uni_CTR_A_Unified_Framework_for_CTR_Prediction.md",
     "搜推精排模型发展脉络/papers/8-LLM赋能CTR/ELEC_LLM_Enhanced_Feature_Engineering/ELEC_LLM_Enhanced_Feature_Engineering.md",
-    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni_CTR.md",
-    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/ELEC.md",
     "搜推精排模型发展脉络/papers/4-序列建模/DIEN_Deep_Interest_Evolution_Network/DIEN_Deep_Interest_Evolution_Network.md",
-    "搜推精排模型发展脉络/papers/4-序列建模/DIN.md",
-    "搜推召回模型发展脉络/搜推召回模型发展脉络.md",
-    "搜推召回模型发展脉络/papers/7-生成式召回/OneRec.md"
+    "搜推精排模型发展脉络/papers/4-序列建模/DIN.md"
   ]
 }
