@@ -36,6 +36,315 @@
             }
           },
           {
+            "id": "b958efaf10a9ba94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GDCN_Gated_Deep_Cross_Network/GDCN_Gated_Deep_Cross_Network.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GDCN_Gated_Deep_Cross_Network"
+            }
+          },
+          {
+            "id": "c87d0e3e1f86ad49",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "搜推精排模型发展脉络/精排核心论文库.base",
+                "viewName": "全部论文（按研究方向分组）"
+              },
+              "icon": "lucide-table",
+              "title": "精排核心论文库"
+            }
+          },
+          {
+            "id": "80e6fbfd8308aa24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20_Research/Papers/推荐系统/UniCTR_Multi_Domain_CTR_Prediction_via_LLM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UniCTR_Multi_Domain_CTR_Prediction_via_LLM"
+            }
+          },
+          {
+            "id": "5c32c5bced833e9f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/tSNE-LLM-non-trained-layer0.png"
+              },
+              "icon": "lucide-image",
+              "title": "tSNE-LLM-non-trained-layer0"
+            }
+          },
+          {
+            "id": "ae6d056dabeca919",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/tSNE-LLM-non-trained-layer1.png"
+              },
+              "icon": "lucide-image",
+              "title": "tSNE-LLM-non-trained-layer1"
+            }
+          },
+          {
+            "id": "86472251ea4e8c63",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/tSNE-LLM-non-trained-layer2.png"
+              },
+              "icon": "lucide-image",
+              "title": "tSNE-LLM-non-trained-layer2"
+            }
+          },
+          {
+            "id": "d3682e185db443fa",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/tSNE-LLM-non-trained-layer3.png"
+              },
+              "icon": "lucide-image",
+              "title": "tSNE-LLM-non-trained-layer3"
+            }
+          },
+          {
+            "id": "74064f3e1b4a4b40",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/tSNE-LLM-non-trained-layer4.png"
+              },
+              "icon": "lucide-image",
+              "title": "tSNE-LLM-non-trained-layer4"
+            }
+          },
+          {
+            "id": "38485f6d24579268",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/tSNE-LLM-trained-layer0.png"
+              },
+              "icon": "lucide-image",
+              "title": "tSNE-LLM-trained-layer0"
+            }
+          },
+          {
+            "id": "f5a6b7051341863e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/tSNE-LLM-trained-layer1.png"
+              },
+              "icon": "lucide-image",
+              "title": "tSNE-LLM-trained-layer1"
+            }
+          },
+          {
+            "id": "aef9678ae4a1d028",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/tSNE-LLM-trained-layer2.png"
+              },
+              "icon": "lucide-image",
+              "title": "tSNE-LLM-trained-layer2"
+            }
+          },
+          {
+            "id": "4968711a05d97965",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/tSNE-LLM-trained-layer3.png"
+              },
+              "icon": "lucide-image",
+              "title": "tSNE-LLM-trained-layer3"
+            }
+          },
+          {
+            "id": "6dc92c38f031a1c8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/tSNE-LLM-trained-layer4.png"
+              },
+              "icon": "lucide-image",
+              "title": "tSNE-LLM-trained-layer4"
+            }
+          },
+          {
+            "id": "3b03309475ac89a1",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Uni-CTR.png"
+              },
+              "icon": "lucide-image",
+              "title": "Uni-CTR"
+            }
+          },
+          {
+            "id": "4db93adbecf69e06",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Uni-CTR3.png"
+              },
+              "icon": "lucide-image",
+              "title": "Uni-CTR3"
+            }
+          },
+          {
+            "id": "4edf89b4d4030382",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
+            }
+          },
+          {
+            "id": "5d5d88f1d3e834a6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/zeroshot.png"
+              },
+              "icon": "lucide-image",
+              "title": "zeroshot"
+            }
+          },
+          {
+            "id": "423d4ce796dcfb6a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Ablation-Block.png"
+              },
+              "icon": "lucide-image",
+              "title": "Ablation-Block"
+            }
+          },
+          {
+            "id": "aea63823ebb4ef79",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Comparison.png"
+              },
+              "icon": "lucide-image",
+              "title": "Comparison"
+            }
+          },
+          {
+            "id": "6683f5c840165603",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/dsn-trained.png"
+              },
+              "icon": "lucide-image",
+              "title": "dsn-trained"
+            }
+          },
+          {
+            "id": "a21d910a593c5b61",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/dsn-untrained.png"
+              },
+              "icon": "lucide-image",
+              "title": "dsn-untrained"
+            }
+          },
+          {
+            "id": "e4ab7bb95d6ff32e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Prompt.png"
+              },
+              "icon": "lucide-image",
+              "title": "Prompt"
+            }
+          },
+          {
+            "id": "28880ac57f377488",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/scale.png"
+              },
+              "icon": "lucide-image",
+              "title": "scale"
+            }
+          },
+          {
+            "id": "2bcb862549d63514",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Distribution.png"
+              },
+              "icon": "lucide-image",
+              "title": "Distribution"
+            }
+          },
+          {
+            "id": "e891ae892d410d2c",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
+            }
+          },
+          {
             "id": "be1aa22e1eea308b",
             "type": "leaf",
             "state": {
@@ -50,7 +359,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 27
       }
     ],
     "direction": "vertical"
@@ -107,7 +416,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 426.5
+    "width": 334.5
   },
   "right": {
     "id": "3c2fde4a47ed5346",
@@ -223,29 +532,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ba30ca5a97b53d1",
+  "active": "be1aa22e1eea308b",
   "lastOpenFiles": [
-    "未命名.canvas",
+    "STAR_One_Model_to_Serve_All.md",
     "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/Uni-CTR A Unified Framework for Multi-Domain CTR Prediction via Large Language Models.md",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/scale.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Prompt.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/dsn-untrained.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/dsn-trained.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Distribution.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Comparison.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Ablation-Block.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/zeroshot.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Uni-CTR3.png",
+    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Uni-CTR.png",
+    "20_Research/Papers/推荐系统/UniCTR_Multi_Domain_CTR_Prediction_via_LLM.md",
+    "搜推精排模型发展脉络/精排核心论文库.base",
+    "GDCN_Gated_Deep_Cross_Network/GDCN_Gated_Deep_Cross_Network.md",
     "搜推精排模型发展脉络/方法论/paper-analyze-SKILL v2.0.md",
-    "搜推精排模型发展脉络/方法论/paper-analyze.zip",
     "搜推精排模型发展脉络/方法论/paper-analyze-SKILL v1.0.md",
+    "未命名.canvas",
+    "搜推精排模型发展脉络/方法论/paper-analyze.zip",
     "搜推精排模型发展脉络/papers/8-LLM赋能CTR/ELEC.md",
     "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni_CTR.md",
     "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni_CTR_A_Unified_Framework_for_CTR_Prediction/Uni_CTR_A_Unified_Framework_for_CTR_Prediction.md",
     "20_Research/PaperGraph/graph_data.json",
     "20_Research/PaperGraph",
-    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Prompt.png",
-    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/dsn-trained.png",
-    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Distribution.png",
-    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Comparison.png",
-    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Ablation-Block.png",
-    "20_Research/Papers/推荐系统/UniCTR_Multi_Domain_CTR_Prediction_via_LLM.md",
-    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/dsn-untrained.png",
-    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Uni-CTR3.png",
-    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/scale.png",
-    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/zeroshot.png",
-    "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets/Uni-CTR.png",
     "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR/assets",
     "搜推精排模型发展脉络/papers/8-LLM赋能CTR/Uni-CTR",
     "搜推精排模型发展脉络/papers/6-Scaling-Law/OneTrans_Unified_Feature_Interaction_and_Sequence_Modeling/OneTrans_Unified_Feature_Interaction_and_Sequence_Modeling.md",
@@ -258,7 +570,6 @@
     "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/arch.pdf",
     "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/scaling.pdf",
     "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/scaling-wukong.pdf",
-    "搜推精排模型发展脉络/papers/6-Scaling-Law/Wukong_Towards_a_Scaling_Law_for_Large_Scale_Recommendation/images/scaling-qps.pdf",
     "搜推精排模型发展脉络/papers/7-生成式推荐/MTGR_Multi_Task_Generative_Recommender/MTGR_Multi_Task_Generative_Recommender.md",
     "搜推精排模型发展脉络/搜推精排模型发展脉络.md",
     "搜推精排模型发展脉络/papers/6-Scaling-Law/OneTrans.md",
@@ -269,7 +580,6 @@
     "搜推精排模型发展脉络/papers/2-深度学习早期/DeepFM_A_Factorization_Machine_based_Neural_Network/DeepFM_A_Factorization_Machine_based_Neural_Network.md",
     "搜推精排模型发展脉络/paper-analyze-SKILL.md",
     "搜推精排模型发展脉络/papers/8-LLM赋能CTR/ELEC_LLM_Enhanced_Feature_Engineering/ELEC_LLM_Enhanced_Feature_Engineering.md",
-    "搜推精排模型发展脉络/papers/4-序列建模/DIEN_Deep_Interest_Evolution_Network/DIEN_Deep_Interest_Evolution_Network.md",
-    "搜推精排模型发展脉络/papers/4-序列建模/DIN.md"
+    "搜推精排模型发展脉络/papers/4-序列建模/DIEN_Deep_Interest_Evolution_Network/DIEN_Deep_Interest_Evolution_Network.md"
   ]
 }
