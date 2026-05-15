@@ -11,6 +11,37 @@
         "Multi-Domain-CTR"
       ],
       "analyzed": true
+    },
+    {
+      "id": "2604.15650",
+      "title": "Sample Is Feature: Beyond Item-Level, Toward Sample-Level Tokens for Unified Large Recommender Models",
+      "year": 2025,
+      "domain": "搜推系统",
+      "quality_score": 9.0,
+      "tags": [
+        "论文笔记",
+        "SIF",
+        "统一架构",
+        "VQ",
+        "Sample Tokenizer",
+        "HGAQ"
+      ],
+      "analyzed": true
+    },
+    {
+      "id": "2305.05065",
+      "title": "Recommender Systems with Generative Retrieval",
+      "year": 2023,
+      "domain": "搜推系统",
+      "quality_score": 9.0,
+      "tags": [
+        "论文笔记",
+        "TIGER",
+        "生成式召回",
+        "Semantic ID",
+        "RQ-VAE"
+      ],
+      "analyzed": true
     }
   ],
   "edges": [
@@ -43,7 +74,73 @@
       "target": "Sheared-LLaMA",
       "type": "related",
       "weight": 0.7
+    },
+    {
+      "source": "2604.15650",
+      "target": "HSTU",
+      "type": "extends",
+      "weight": 0.9
+    },
+    {
+      "source": "2604.15650",
+      "target": "MTGR",
+      "type": "related",
+      "weight": 0.85
+    },
+    {
+      "source": "2604.15650",
+      "target": "OneRec",
+      "type": "related",
+      "weight": 0.8
+    },
+    {
+      "source": "2604.15650",
+      "target": "HyFormer",
+      "type": "improves",
+      "weight": 0.95
+    },
+    {
+      "source": "2604.15650",
+      "target": "VQ-VAE",
+      "type": "extends",
+      "weight": 0.7
+    },
+    {
+      "source": "2305.05065",
+      "target": "DSI",
+      "type": "extends",
+      "weight": 0.9
+    },
+    {
+      "source": "2305.05065",
+      "target": "RQ-VAE",
+      "type": "extends",
+      "weight": 0.85
+    },
+    {
+      "source": "HSTU",
+      "target": "2305.05065",
+      "type": "follows",
+      "weight": 0.8
+    },
+    {
+      "source": "OneRec",
+      "target": "2305.05065",
+      "type": "follows",
+      "weight": 0.8
+    },
+    {
+      "source": "MTGR",
+      "target": "2305.05065",
+      "type": "follows",
+      "weight": 0.75
+    },
+    {
+      "source": "2604.15650",
+      "target": "2305.05065",
+      "type": "related",
+      "weight": 0.7
     }
   ],
-  "last_updated": "2026-05-13"
+  "last_updated": "2026-05-15"
 }
