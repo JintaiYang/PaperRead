@@ -1,0 +1,12 @@
+# macOS 系统文件
+.DS_Store
+
+# Obsidian 工作区状态（每台设备不同，频繁自动变动）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian 图谱视图状态
+.obsidian/graph.json
+
+# CatPaw 本地配置
+.catpaw/
