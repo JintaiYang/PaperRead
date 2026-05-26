@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "id": "2006.14827",
+      "title": "Memory-efficient Embedding for Recommendations",
+      "short_title": "AutoDim",
+      "authors": ["Xiangyu Zhao", "Haochen Liu", "Hui Liu", "Jiliang Tang", "Weiwei Guo", "Jun Shi", "Sida Wang", "Huiji Gao", "Bo Long"],
+      "institution": ["Michigan State University", "LinkedIn Corporation"],
+      "published": "2020-06-26",
+      "venue": "ACM RecSys 2021",
+      "domain": "搜推系统",
+      "tags": ["嵌入维度搜索", "AutoML", "NAS", "推荐系统", "embedding-compression", "DARTS", "Gumbel-Softmax", "内存优化"],
+      "quality_score": 8.2,
+      "note_path": "Papers/搜推系统/AutoDim_Memory-efficient_Embedding_for_Recommendations.md",
+      "arxiv_url": "https://arxiv.org/abs/2006.14827",
+      "added_at": "2026-05-26"
+    },
+    {
+      "id": "1806.09055",
+      "title": "DARTS: Differentiable Architecture Search",
+      "short_title": "DARTS",
+      "authors": ["Hanxiao Liu", "Karen Simonyan", "Yiming Yang"],
+      "published": "2018-06-24",
+      "domain": "神经架构搜索",
+      "tags": ["NAS", "differentiable", "architecture-search"],
+      "quality_score": 9.5,
+      "note_path": null
+    },
+    {
+      "id": "zhao2020autoemb",
+      "title": "Automated Embedding Dimensionality Search",
+      "short_title": "AutoEmb",
+      "authors": ["Xiangyu Zhao"],
+      "published": "2020",
+      "domain": "搜推系统",
+      "tags": ["embedding-search", "recommendation", "DARTS"],
+      "quality_score": 7.5,
+      "note_path": null
+    },
+    {
+      "id": "ginart2019mixed",
+      "title": "Mixed Dimension Embeddings with Application to Memory-Efficient Recommendation Models",
+      "short_title": "MDE",
+      "authors": ["Antonio Ginart", "Maxim Naumov"],
+      "published": "2019",
+      "domain": "搜推系统",
+      "tags": ["embedding-compression", "mixed-dimension", "recommendation"],
+      "quality_score": 7.0,
+      "note_path": null
+    },
+    {
+      "id": "joglekar2019neural",
+      "title": "Neural Input Search for Large Scale Recommendation Models",
+      "short_title": "NIS",
+      "authors": ["Moumita Bhattacharya"],
+      "published": "2019",
+      "domain": "搜推系统",
+      "tags": ["embedding-search", "reinforcement-learning", "recommendation"],
+      "quality_score": 7.0,
+      "note_path": null
+    },
+    {
+      "id": "cheng2016wide",
+      "title": "Wide & Deep Learning for Recommender Systems",
+      "short_title": "Wide&Deep",
+      "authors": ["Heng-Tze Cheng"],
+      "published": "2016",
+      "venue": "DLRS 2016",
+      "domain": "搜推系统",
+      "tags": ["recommendation", "deep-learning", "CTR"],
+      "quality_score": 9.0,
+      "note_path": null
+    },
+    {
+      "id": "guo2017deepfm",
+      "title": "DeepFM: A Factorization-Machine based Neural Network for CTR Prediction",
+      "short_title": "DeepFM",
+      "authors": ["Huifeng Guo", "Ruiming Tang"],
+      "published": "2017",
+      "venue": "IJCAI 2017",
+      "domain": "搜推系统",
+      "tags": ["CTR", "FM", "deep-learning"],
+      "quality_score": 9.0,
+      "note_path": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "2006.14827",
+      "target": "1806.09055",
+      "type": "extends",
+      "description": "AutoDim 借用 DARTS 的双层优化框架和一阶近似技术"
+    },
+    {
+      "source": "2006.14827",
+      "target": "zhao2020autoemb",
+      "type": "improves",
+      "description": "AutoDim 改进了 AutoEmb，将搜索粒度从特征值级提升为特征域级，显著降低搜索空间"
+    },
+    {
+      "source": "2006.14827",
+      "target": "ginart2019mixed",
+      "type": "compares",
+      "description": "AutoDim 与 MDE 比较，MDE 基于频率启发式，AutoDim 数据驱动"
+    },
+    {
+      "source": "2006.14827",
+      "target": "joglekar2019neural",
+      "type": "compares",
+      "description": "AutoDim 与 NIS 比较，NIS 用强化学习在值粒度搜索"
+    },
+    {
+      "source": "2006.14827",
+      "target": "cheng2016wide",
+      "type": "follows",
+      "description": "AutoDim 以 Wide&Deep 为基座推荐模型之一进行实验"
+    },
+    {
+      "source": "2006.14827",
+      "target": "guo2017deepfm",
+      "type": "follows",
+      "description": "AutoDim 以 DeepFM 为基座推荐模型之一进行实验"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "created_at": "2026-05-26",
+    "last_updated": "2026-05-26",
+    "total_papers": 7,
+    "total_edges": 6
+  }
+}
