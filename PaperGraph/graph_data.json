@@ -11,9 +11,20 @@
       "domain": "搜推系统",
       "tags": ["嵌入维度搜索", "AutoML", "NAS", "推荐系统", "embedding-compression", "DARTS", "Gumbel-Softmax", "内存优化"],
       "quality_score": 8.2,
-      "note_path": "Papers/搜推系统/AutoDim_Memory-efficient_Embedding_for_Recommendations.md",
+      "note_path": "搜推精排模型发展脉络/papers/10-Embedding优化/AutoDim_Memory-efficient_Embedding_for_Recommendations.md",
       "arxiv_url": "https://arxiv.org/abs/2006.14827",
       "added_at": "2026-05-26"
+    },
+    {
+      "id": "2602.07520",
+      "title": "MDL: A Unified Multi-Distribution Learner (Douyin Search)",
+      "short_title": "MDL",
+      "year": 2026,
+      "domain": "搜推系统",
+      "quality_score": 8.0,
+      "tags": ["论文笔记", "搜推系统", "序列建模", "多分布"],
+      "note_path": "搜推精排模型发展脉络/papers/4-序列建模/MDL_Multi_Distribution_Learner.md",
+      "analyzed": true
     },
     {
       "id": "1806.09055",
@@ -120,13 +131,19 @@
       "target": "guo2017deepfm",
       "type": "follows",
       "description": "AutoDim 以 DeepFM 为基座推荐模型之一进行实验"
+    },
+    {
+      "source": "2602.07520",
+      "target": "2012.08986",
+      "type": "related",
+      "weight": 0.7
     }
   ],
   "metadata": {
-    "version": "1.0",
+    "version": "1.1",
     "created_at": "2026-05-26",
     "last_updated": "2026-05-26",
-    "total_papers": 7,
-    "total_edges": 6
+    "total_papers": 8,
+    "total_edges": 7
   }
 }
